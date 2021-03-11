@@ -1,0 +1,793 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+html{
+	width: auto;
+}
+.frame{
+height: 5220px;
+width: 1905px;
+left: -459px;
+top: -366px;
+border-radius: 0px;
+background: linear-gradient(181.95deg, #FFFFFF 1.65%, rgba(255, 255, 255, 0) 64.75%),
+linear-gradient(0deg, #747474, #747474);
+
+}
+.Screen1{
+	position: absolute;
+width: 1905px;
+height: 1080px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(1.32deg, #000000 1.42%, rgba(11, 10, 10, 0) 50.3%), linear-gradient(178.84deg, #FFFFFF -70.66%, rgba(0, 0, 0, 0) 18.29%);
+background-image: url(Build-an-editing-PC.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+
+}
+.Screen2{
+	position: absolute;
+width: 1680px;
+height: 600px;
+left: 120px;
+top: 1205px;
+}
+.Screen3{
+position: absolute;
+width: 1905px;
+height: 800px;
+left: 0px;
+top: 1930px;
+
+background: url(thermaltake-core-p5-build-pc.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+}
+.Screen4{
+position: absolute;
+height: 1137px;
+width: 1920px;
+top: 2800px;
+}
+.Screen5{
+position: absolute;
+width: 1905px;
+height: 1080px;
+left: 0px;
+top: 3917px;
+background: url(play-background.jpeg);
+}
+#play{
+width: 200px;
+height: 200px;
+margin-left: 860px;
+top: 4244px;
+margin-top: 20%;
+background: url(pngwing.png);
+background-size: 100%;
+}
+#nav1{
+position: absolute;
+width: 141px;
+height: 50px;
+left: 417px;
+top: 38px;
+
+font-family: Revalia;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+text-decoration: none;
+
+
+color: #E3CCCC;
+}
+#nav2{
+position: absolute;
+width: 439px;
+height: 50px;
+left: 618px;
+top: 38px;
+text-decoration: none;
+font-family: Revalia;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 50px;
+
+
+color: #E3CCCC;
+}
+#nav3{
+position: absolute;
+width: 314px;
+height: 50px;
+left: 1117px;
+top: 38px;
+text-decoration: none;
+font-family: Revalia;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 50px;
+
+
+color: #E3CCCC;
+}
+#nav4{
+position: absolute;
+width: 113px;
+height: 50px;
+left: 1491px;
+top: 38px;
+text-decoration: none;
+font-family: Revalia;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 50px;
+color: #E3CCCC;
+}
+h2{
+	position: absolute;
+width: 617px;
+height: 84px;
+left: 65px;
+top: 48px;
+
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 67px;
+
+color: #E2DFDF;
+}
+.rectangle{
+	position: absolute;
+width: 714px;
+height: 175px;
+left: 603px;
+top: 502px;
+
+border: 3px solid #F8F8F8;
+box-sizing: border-box;
+border-radius: 90px;
+}
+.invader{
+
+background: url(invader.jpg);
+border-radius: 68px;
+position: absolute;
+width:700px;
+height: 500px;
+padding-left: 120px;
+background-repeat: no-repeat;
+background-size:100%;
+}
+#title{
+top: 38px;
+left: 50px;
+position: absolute;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 40px;
+text-align: center;
+color: #E2D4D4;
+}
+#info{
+position: absolute;
+top: 40px;
+left: 1001px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 40px;
+color: #121212;
+}
+.rectangle1{
+position: absolute;
+width: 331px;
+height: 100px;
+left: 1150px;
+top: 400px;
+border: 4px solid #201F22;
+box-sizing: border-box;
+border-radius: 50px;
+}
+#podrobnee{
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 40px;
+top: 25px;
+left: 100px;
+/* identical to box height */
+
+
+color: #201F22;
+}
+#zayavka{
+top: 223px;
+left: 1078px;
+position: absolute;
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 42px;
+line-height: 55px;
+color: #8A99A4;
+
+}
+#perezvon{
+position: absolute;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 33px;
+left: 1106px;
+top: 418px;
+color: #8A99A4;
+}
+.zayav1{
+position: absolute;
+top: 223px;
+left: 1503px;
+border-radius: 38px;
+border: none;
+width: 270px;
+height: 76px;
+border: 1px solid 138,153,164,1;
+padding-left:  20px;
+background-color: none;
+}
+.zayav2{
+padding-left:  20px;
+position: absolute;
+border-radius: 38px;
+border: none;
+width: 270px;
+height: 76px;
+border: 1px solid 138,153,164,1;
+left: 1503px;
+top: 319px;
+}
+.knopka{
+cursor: pointer;
+padding-left:  20px;
+position: absolute;
+border:none;
+width: 290px;
+height: 76px;
+border-radius: 38px;
+top: 420px;
+left: 1503px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #000000;
+}
+input::placeholder {
+padding-left:20px; 
+font-size: 1.5em;
+}
+input:focus {
+  outline:none;
+}
+button{
+	outline: none;
+
+}
+p{
+position: absolute;
+left: 1523px;
+top: 506px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 18px;
+text-align: center;
+color: #8A99A4;
+}
+span{
+	color: #CB6439;
+}
+#podobrat{
+	font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 40px;
+/* identical to box height, or 100% */
+width: 485px;
+height: 40px;
+left: 718px;
+position: absolute;
+color: #000000;
+}
+#napravlenie{
+position: absolute;
+width: 445px;
+height: 40px;
+left: 738px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 550;
+font-size: 35px;
+line-height: 40px;
+/* identical to box height, or 114% */
+
+
+color: #000000;
+}
+#parameter{
+position: absolute;
+width: 450px;
+height: 294px;
+top: 150px;
+left: 223px;
+background: #C4C4C4;
+border: 4px solid #CD1E1E;
+box-sizing: border-box;
+
+}
+#game{
+position: absolute;
+width: 450px;
+height: 294px;
+top: 150px;
+left: 735px;
+background: #C4C4C4;
+border: 4px solid #CD1E1E;
+box-sizing: border-box;
+}
+#work{
+position: absolute;
+width: 450px;
+height: 294px;
+top: 150px;
+left: 1247px;
+background: #C4C4C4;
+border: 4px solid #CD1E1E;
+box-sizing: border-box;
+}
+.parameter-icon{
+position: absolute;
+width: 100px;
+height: 100px;
+left: 175px;
+top: 24.3px;
+
+background: url(settings.png);
+background-size: 100px;
+}
+.game-icon{
+position: absolute;
+width: 100px;
+height: 98px;
+left: 176px;
+top: 24.3px;
+
+background: url(console.png);
+background-repeat: no-repeat;
+background-size: 100px;
+}
+.work-icon{
+position: absolute;
+width: 100px;
+height: 98px;
+left: 176px;
+top: 24.3px;
+
+background: url(computer.png);
+background-repeat: no-repeat;
+background-size: 100px;
+}
+.info-parameter{
+width: 248px;
+left: -80px;
+top: 150px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 40px;
+color: #000000;
+}.info-game{
+width: 248px;
+left: -80px;
+top: 150px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 40px;
+color: #000000;
+}.info-work{
+width: 248px;
+left: -80px;
+top: 150px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 40px;
+color: #000000;
+}
+
+.arrow {
+	position: absolute;
+left: 920px;
+top: 500px;
+width: 60px;
+height: 60px;
+border-top: 10px solid #6E18C0;
+border-right: 10px solid #6E18C0;
+margin-right: 60px;
+} 
+.arrow-bottom {
+transform: rotate(135deg);
+} 
+.parametr{
+	position: absolute;
+width: 404px;
+height: 40px;
+left: 766px;
+top: 620px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 40px;
+/* identical to box height, or 114% */
+
+
+color: #000000;
+}
+#price{
+	position: absolute;
+width: 350px;
+height: 210px;
+left: 332px;
+top: 720px;
+
+background: #C4C4C4;
+border: 4px solid #CD1E1E;
+box-sizing: border-box;
+}
+#videocard{
+	position: absolute;
+width: 350px;
+height: 210px;
+left: 782px;
+top: 720px;
+background: #C4C4C4;
+border: 4px solid #CD1E1E;
+box-sizing: border-box;
+}
+#processor{
+position: absolute;
+width: 350px;
+height: 210px;
+left: 1232px;
+top: 720px;
+background: #C4C4C4;
+border: 4px solid #CD1E1E;
+box-sizing: border-box;
+}
+.price-icon{
+position: absolute;
+width: 77.78px;
+height: 70px;
+left: 132px;
+top: 30px;
+background: url(coin-stack.png);
+background-size: 70px;
+background-repeat: no-repeat;
+}
+.videocard-icon{
+position: absolute;
+width: 77.78px;
+height: 70px;
+left: 132px;
+top: 30px;
+background: url(video-card.png);
+background-size: 70px;
+background-repeat: no-repeat;
+}
+.processor-icon{
+position: absolute;
+width: 77.78px;
+height: 70px;
+left: 132px;
+top: 30px;
+background: url(cpu.png);
+background-size: 70px;
+background-repeat: no-repeat;
+}
+.info-price{
+position: absolute;
+width: 255.73px;
+height: 28.86px;
+left: -90px;
+top: 105px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 40px;
+/* or 133% */
+
+
+color: #000000;
+}
+.info-videocard{
+position: absolute;
+width: 255.73px;
+height: 28.86px;
+left: -90px;
+top: 105px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 40px;
+/* or 133% */
+
+
+color: #000000;
+}
+.info-processor{
+position: absolute;
+width: 255.73px;
+height: 28.86px;
+left: -90px;
+top: 105px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 40px;
+/* or 133% */
+
+
+color: #000000;
+}
+#about{
+position: absolute;
+width: 617px;
+height: 32px;
+left: 660px;
+top: 627px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 40px;
+color: #FFFFFF;
+}
+#about-us{
+position: absolute;
+width: 1080px;
+height: 80px;
+left: 420px;
+top: 689px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 40px;
+text-align: center;
+color: #FFFFFF;
+
+}
+#logo{
+position: absolute;
+width: 283px;
+height: 49px;
+left: 113px;
+top: 5089px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 49px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.policy1{
+position: absolute;
+width: 167px;
+height: 40px;
+left: 474px;
+top: 5089px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+
+
+color: #121212;
+}
+.policy2{
+position: absolute;
+width: 200px;
+height: 40px;
+left: 719px;
+top: 5089px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+
+
+color: #121212;
+}
+.vk{
+	position: absolute;
+	top: 5079px;
+	left: 995px;
+	width: 60px;
+	height: 50px;
+	background: url(vk.svg);
+	background-size: 60px;
+
+}.insta{
+	position: absolute;
+	top: 5079px;
+	left: 1299px;
+	width: 60px;
+	height: 60px;
+	background: url(insta.png);
+	background-size: 60px;
+	background-repeat: no-repeat;
+}.youtube{
+	position: absolute;
+	top: 5079px;
+	left: 1613px;
+	width: 60px;
+	height: 50px;
+	background: url(youtube.svg);
+	background-size: 60px;
+	background-repeat: no-repeat;
+}
+.social{
+position: absolute;
+width: 90px;
+height: 12px;
+left: 1064px;
+top: 5089px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+
+color: #000000;
+}
+.subscriber{
+position: absolute;
+width: 157px;
+height: 15px;
+left: 1061px;
+top: 5104px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+
+
+color: #000000;
+}
+.social2{
+position: absolute;
+width: 90px;
+height: 12px;
+left: 1369px;
+top: 5089px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+
+color: #000000;
+}
+.subscriber2{
+position: absolute;
+width: 157px;
+height: 15px;
+left: 1369px;
+top: 5104px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+
+
+color: #000000;
+}
+.social3{
+position: absolute;
+width: 90px;
+height: 12px;
+left: 1689px;
+top: 5084px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+
+color: #000000;
+}
+.subscriber3{
+position: absolute;
+width: 157px;
+height: 15px;
+left: 1689px;
+top: 5099px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+
+
+color: #000000;
+}
